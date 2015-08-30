@@ -11,9 +11,9 @@ int bsearch(int *array, unsigned int count, int x, short *isFound)
 		return 0;
 	}
 
-	unsigned int *index;
-	unsigned int *regionBegin = array;
-	unsigned int *regionEnd = array + count;
+	int *index;
+	int *regionBegin = array;
+	int *regionEnd = array + count;
 	
 
 	/* Main cycle

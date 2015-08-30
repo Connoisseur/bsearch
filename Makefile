@@ -4,7 +4,7 @@ LDFLAGS=
 SOURCES=main.c \
 		search.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=test
+EXECUTABLE=bsearch
 
 all: $(SOURCES) $(EXECUTABLE)
     
